@@ -23,7 +23,12 @@ Clojure client for [PubNub](http://www.pubnub.com/).
 (pubnub/publish "my_channel" {:hello "world"})
 
 ;; SSL and signing is also supported
-(pubnub/publish {:pub-key "demo" :sub-key "demo" :secret-key "demo" :ssl true} "my_channel" {:hello "world"})
+(pubnub/publish {:pub-key "demo"
+                 :sub-key "demo"
+                 :secret-key "demo"
+                 :ssl true}
+                "my_channel"
+                {:hello "world"})
 ```
 
 ## License
