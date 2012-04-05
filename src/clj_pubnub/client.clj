@@ -48,5 +48,4 @@
      ({:pre [(string? channel)
              (every? config [:pub-key :sub-key])]}
       (let [uri (build-publish-uri config channel message)]
-        (println uri)
         (http/get uri)))))
