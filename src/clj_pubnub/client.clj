@@ -2,7 +2,7 @@
   (:use [digest :only [digest]])
   (:require [clj-http.client :as http]
             [cheshire.core :as json]
-            [clojure.contrib.string :as str]))
+            [clojure.string :as str]))
 
 (defonce ^{:dynamic true} config
   {})
