@@ -2,7 +2,7 @@
 
 Clojure client for [PubNub](http://www.pubnub.com/).
 
-* !! This repository is not maintained anymore !! *
+**This repository is not maintained anymore**
 
 ## Usage
 
