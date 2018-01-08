@@ -1,3 +1,5 @@
+# This repository is not maintained anymore.
+
 # clj-pubnub
 
 Clojure client for [PubNub](http://www.pubnub.com/).
